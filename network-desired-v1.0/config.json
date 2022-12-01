@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Three3, Inc."
+  },
+  "text": {
+    "more": "This network map displays organizations looking to work more closely with other partners in the Knoxville food system. Yellow circles represent organizations looking to partner with other groups; these organizations have shared the names of groups they would like to work with, which are shown in blue. The darkest blue circles represent the organizations that were listed most frequently as a desired partner.",
+    "intro": "To find a particular organization, type their name in the \u0027Search\u0027 box below and either press \u0027Enter\u0027 on your keyboard or click the black triangle to the right of the box. Then only the groups connected to this organization will appear on the map, and information about the organization and its connections will appear in a panel at the righthand side of the screen. Click on the gray area of the screen and drag to move the map around, and use the magnifying glass symbols at the bottom of the screen to zoom in or out for a better view.",
+    "title": "Organizations Seeking Partners in the Knoxville Food System Network"
+  },
+  "legend": {
+    "edgeLabel": "Partnership",
+    "colorLabel": "Connectedness",
+    "nodeLabel": "Organization"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
